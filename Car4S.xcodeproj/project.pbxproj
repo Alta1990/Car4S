@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D18CD9C1CF58FFE00DFEC3D /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18CD9B1CF58FFE00DFEC3D /* UIImage+TintColor.m */; };
+		2D257FF01CF427380014FCDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D257FEF1CF427380014FCDB /* main.m */; };
+		2D257FFB1CF427380014FCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D257FFA1CF427380014FCDB /* Assets.xcassets */; };
+		2D257FFE1CF427380014FCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D257FFC1CF427380014FCDB /* LaunchScreen.storyboard */; };
+		2D2580091CF427390014FCDB /* Car4STests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580081CF427390014FCDB /* Car4STests.m */; };
+		2D2580141CF427390014FCDB /* Car4SUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580131CF427390014FCDB /* Car4SUITests.m */; };
+		2D2580801CF4388D0014FCDB /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25806A1CF4388D0014FCDB /* CustomerViewController.m */; };
+		2D2580811CF4388D0014FCDB /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580701CF4388D0014FCDB /* HomePageViewController.m */; };
+		2D2580821CF4388D0014FCDB /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580761CF4388D0014FCDB /* MineViewController.m */; };
+		2D2580831CF4388D0014FCDB /* ReportFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25807D1CF4388D0014FCDB /* ReportFormsViewController.m */; };
+		2D2580861CF438B70014FCDB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580851CF438B70014FCDB /* BaseViewController.m */; };
+		2D25808A1CF438CC0014FCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580891CF438CC0014FCDB /* AppDelegate.m */; };
+		2D2580921CF446800014FCDB /* UIFont+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580911CF446800014FCDB /* UIFont+Size.m */; };
+		2D2580971CF45DDB0014FCDB /* HomePageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2580961CF45DDB0014FCDB /* HomePageHeaderView.m */; };
+		2D2C7FF71CFC327B00EEB8E4 /* CustomerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2C7FF61CFC327B00EEB8E4 /* CustomerTableViewCell.m */; };
+		2D2C7FFA1CFC39DE00EEB8E4 /* UILabel+LineSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2C7FF91CFC39DE00EEB8E4 /* UILabel+LineSpacing.m */; };
+		2D2E65E11D0F9B76003EB62C /* VerticalAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E65E01D0F9B76003EB62C /* VerticalAlignLabel.m */; };
+		2D47AC351CFFD04D008A6B0C /* ReportFormsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47AC341CFFD04D008A6B0C /* ReportFormsDetailViewController.m */; };
+		2D5F5D6B1CF5555C00A420A4 /* UILabel+FontColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F5D6A1CF5555C00A420A4 /* UILabel+FontColor.m */; };
+		2D662AEA1CFEBDFA006E3D80 /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D662AE91CFEBDFA006E3D80 /* MineTableViewCell.m */; };
+		2D662AEE1CFED167006E3D80 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D662AED1CFED167006E3D80 /* KeychainWrapper.m */; };
+		2DB8788E1CFC1DB900B6049D /* BottomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8788D1CFC1DB900B6049D /* BottomToolBarView.m */; };
+		2DC087071CFD21E300888646 /* CustomerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC087061CFD21E300888646 /* CustomerDetailViewController.m */; };
+		2DC0870A1CFD285900888646 /* CustomerDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC087091CFD285900888646 /* CustomerDetailCell.m */; };
+		2DE4FB261D49D84A00759D0A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4FB241D49D84A00759D0A /* TestViewController.m */; };
+		2DE4FB271D49D84A00759D0A /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE4FB251D49D84A00759D0A /* TestViewController.xib */; };
+		2DE758B71CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE758B61CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.m */; };
+		2DE758BA1CF5487500DEFA45 /* OverdueRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE758B91CF5487500DEFA45 /* OverdueRecordTableViewCell.m */; };
+		2DF83A781CFE7F4A004571A2 /* ReportFormTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF83A771CFE7F4A004571A2 /* ReportFormTableViewCell.m */; };
+		82007E413600FC1713DEFEA0 /* libPods-Car4S.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E4ED89573B3096410802DF /* libPods-Car4S.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2580051CF427390014FCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D257FE31CF427380014FCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D257FEA1CF427380014FCDB;
+			remoteInfo = Car4S;
+		};
+		2D2580101CF427390014FCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D257FE31CF427380014FCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D257FEA1CF427380014FCDB;
+			remoteInfo = Car4S;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D18CD9A1CF58FFE00DFEC3D /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		2D18CD9B1CF58FFE00DFEC3D /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		2D257FEB1CF427380014FCDB /* Car4S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Car4S.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D257FEF1CF427380014FCDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D257FFA1CF427380014FCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D257FFD1CF427380014FCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D257FFF1CF427380014FCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2580041CF427390014FCDB /* Car4STests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Car4STests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2580081CF427390014FCDB /* Car4STests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car4STests.m; sourceTree = "<group>"; };
+		2D25800A1CF427390014FCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D25800F1CF427390014FCDB /* Car4SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Car4SUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2580131CF427390014FCDB /* Car4SUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car4SUITests.m; sourceTree = "<group>"; };
+		2D2580151CF427390014FCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2580691CF4388D0014FCDB /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		2D25806A1CF4388D0014FCDB /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		2D25806F1CF4388D0014FCDB /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		2D2580701CF4388D0014FCDB /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		2D2580751CF4388D0014FCDB /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		2D2580761CF4388D0014FCDB /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		2D25807C1CF4388D0014FCDB /* ReportFormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportFormsViewController.h; sourceTree = "<group>"; };
+		2D25807D1CF4388D0014FCDB /* ReportFormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportFormsViewController.m; sourceTree = "<group>"; };
+		2D2580841CF438B70014FCDB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2D2580851CF438B70014FCDB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2D2580881CF438CC0014FCDB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D2580891CF438CC0014FCDB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D25808E1CF444ED0014FCDB /* FontAndColorDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorDefines.h; sourceTree = "<group>"; };
+		2D2580901CF446800014FCDB /* UIFont+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Size.h"; sourceTree = "<group>"; };
+		2D2580911CF446800014FCDB /* UIFont+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Size.m"; sourceTree = "<group>"; };
+		2D2580951CF45DDB0014FCDB /* HomePageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageHeaderView.h; sourceTree = "<group>"; };
+		2D2580961CF45DDB0014FCDB /* HomePageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageHeaderView.m; sourceTree = "<group>"; };
+		2D2580981CF45F4A0014FCDB /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		2D2C7FF51CFC327B00EEB8E4 /* CustomerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewCell.h; sourceTree = "<group>"; };
+		2D2C7FF61CFC327B00EEB8E4 /* CustomerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewCell.m; sourceTree = "<group>"; };
+		2D2C7FF81CFC39DE00EEB8E4 /* UILabel+LineSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LineSpacing.h"; sourceTree = "<group>"; };
+		2D2C7FF91CFC39DE00EEB8E4 /* UILabel+LineSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LineSpacing.m"; sourceTree = "<group>"; };
+		2D2E65DF1D0F9B76003EB62C /* VerticalAlignLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalAlignLabel.h; sourceTree = "<group>"; };
+		2D2E65E01D0F9B76003EB62C /* VerticalAlignLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalAlignLabel.m; sourceTree = "<group>"; };
+		2D47AC331CFFD04D008A6B0C /* ReportFormsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportFormsDetailViewController.h; sourceTree = "<group>"; };
+		2D47AC341CFFD04D008A6B0C /* ReportFormsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportFormsDetailViewController.m; sourceTree = "<group>"; };
+		2D5F5D691CF5555C00A420A4 /* UILabel+FontColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FontColor.h"; sourceTree = "<group>"; };
+		2D5F5D6A1CF5555C00A420A4 /* UILabel+FontColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FontColor.m"; sourceTree = "<group>"; };
+		2D662AE81CFEBDFA006E3D80 /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		2D662AE91CFEBDFA006E3D80 /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		2D662AEC1CFED167006E3D80 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		2D662AED1CFED167006E3D80 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		2DB8788C1CFC1DB900B6049D /* BottomToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomToolBarView.h; sourceTree = "<group>"; };
+		2DB8788D1CFC1DB900B6049D /* BottomToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomToolBarView.m; sourceTree = "<group>"; };
+		2DC087051CFD21E300888646 /* CustomerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDetailViewController.h; sourceTree = "<group>"; };
+		2DC087061CFD21E300888646 /* CustomerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDetailViewController.m; sourceTree = "<group>"; };
+		2DC087081CFD285900888646 /* CustomerDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDetailCell.h; sourceTree = "<group>"; };
+		2DC087091CFD285900888646 /* CustomerDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDetailCell.m; sourceTree = "<group>"; };
+		2DE4FB231D49D84A00759D0A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2DE4FB241D49D84A00759D0A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2DE4FB251D49D84A00759D0A /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		2DE758B51CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentStatisticsTableViewCell.h; sourceTree = "<group>"; };
+		2DE758B61CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentStatisticsTableViewCell.m; sourceTree = "<group>"; };
+		2DE758B81CF5487500DEFA45 /* OverdueRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverdueRecordTableViewCell.h; sourceTree = "<group>"; };
+		2DE758B91CF5487500DEFA45 /* OverdueRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverdueRecordTableViewCell.m; sourceTree = "<group>"; };
+		2DF83A761CFE7F4A004571A2 /* ReportFormTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportFormTableViewCell.h; sourceTree = "<group>"; };
+		2DF83A771CFE7F4A004571A2 /* ReportFormTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportFormTableViewCell.m; sourceTree = "<group>"; };
+		84EB5A7C7F2029C6C6558587 /* Pods-Car4S.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car4S.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Car4S/Pods-Car4S.debug.xcconfig"; sourceTree = "<group>"; };
+		99E4ED89573B3096410802DF /* libPods-Car4S.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Car4S.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A23721A6528F036203D4D3 /* Pods-Car4S.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car4S.release.xcconfig"; path = "Pods/Target Support Files/Pods-Car4S/Pods-Car4S.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D257FE81CF427380014FCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82007E413600FC1713DEFEA0 /* libPods-Car4S.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2580011CF427390014FCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25800C1CF427390014FCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D257FE21CF427380014FCDB = {
+			isa = PBXGroup;
+			children = (
+				2D257FED1CF427380014FCDB /* Car4S */,
+				2D2580071CF427390014FCDB /* Car4STests */,
+				2D2580121CF427390014FCDB /* Car4SUITests */,
+				2D257FEC1CF427380014FCDB /* Products */,
+				798682DB8E29599D4300C9A1 /* Pods */,
+				8FEFF5385B94C762781E79CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D257FEC1CF427380014FCDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D257FEB1CF427380014FCDB /* Car4S.app */,
+				2D2580041CF427390014FCDB /* Car4STests.xctest */,
+				2D25800F1CF427390014FCDB /* Car4SUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D257FED1CF427380014FCDB /* Car4S */ = {
+			isa = PBXGroup;
+			children = (
+				2D257FFA1CF427380014FCDB /* Assets.xcassets */,
+				2D2580871CF438CC0014FCDB /* Application */,
+				2D2580671CF4388D0014FCDB /* Section */,
+				2D2580631CF437AD0014FCDB /* General */,
+				2D2580641CF437AD0014FCDB /* Helpers */,
+				2D2580651CF437AD0014FCDB /* Macro */,
+				2D2580661CF437AD0014FCDB /* Network */,
+				2D257FEE1CF427380014FCDB /* Supporting Files */,
+			);
+			path = Car4S;
+			sourceTree = "<group>";
+		};
+		2D257FEE1CF427380014FCDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D257FFC1CF427380014FCDB /* LaunchScreen.storyboard */,
+				2D257FFF1CF427380014FCDB /* Info.plist */,
+				2D257FEF1CF427380014FCDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D2580071CF427390014FCDB /* Car4STests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580081CF427390014FCDB /* Car4STests.m */,
+				2D25800A1CF427390014FCDB /* Info.plist */,
+			);
+			path = Car4STests;
+			sourceTree = "<group>";
+		};
+		2D2580121CF427390014FCDB /* Car4SUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580131CF427390014FCDB /* Car4SUITests.m */,
+				2D2580151CF427390014FCDB /* Info.plist */,
+			);
+			path = Car4SUITests;
+			sourceTree = "<group>";
+		};
+		2D2580631CF437AD0014FCDB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				2D662AEB1CFED122006E3D80 /* Class */,
+				2D25808F1CF446590014FCDB /* Categories */,
+				2D2580841CF438B70014FCDB /* BaseViewController.h */,
+				2D2580851CF438B70014FCDB /* BaseViewController.m */,
+				2D2E65DF1D0F9B76003EB62C /* VerticalAlignLabel.h */,
+				2D2E65E01D0F9B76003EB62C /* VerticalAlignLabel.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		2D2580641CF437AD0014FCDB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2D2580651CF437AD0014FCDB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				2D25808E1CF444ED0014FCDB /* FontAndColorDefines.h */,
+				2D2580981CF45F4A0014FCDB /* MacroDefine.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		2D2580661CF437AD0014FCDB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2D2580671CF4388D0014FCDB /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				2D25806E1CF4388D0014FCDB /* Home */,
+				2D2580681CF4388D0014FCDB /* Customer */,
+				2D25807A1CF4388D0014FCDB /* ReportForms */,
+				2D2580741CF4388D0014FCDB /* Mine */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		2D2580681CF4388D0014FCDB /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580691CF4388D0014FCDB /* CustomerViewController.h */,
+				2D25806A1CF4388D0014FCDB /* CustomerViewController.m */,
+				2D25806B1CF4388D0014FCDB /* Model */,
+				2D25806C1CF4388D0014FCDB /* View */,
+				2D25806D1CF4388D0014FCDB /* ViewController */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		2D25806B1CF4388D0014FCDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D25806C1CF4388D0014FCDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8788C1CFC1DB900B6049D /* BottomToolBarView.h */,
+				2DB8788D1CFC1DB900B6049D /* BottomToolBarView.m */,
+				2D2C7FF51CFC327B00EEB8E4 /* CustomerTableViewCell.h */,
+				2D2C7FF61CFC327B00EEB8E4 /* CustomerTableViewCell.m */,
+				2DC087081CFD285900888646 /* CustomerDetailCell.h */,
+				2DC087091CFD285900888646 /* CustomerDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D25806D1CF4388D0014FCDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DC087051CFD21E300888646 /* CustomerDetailViewController.h */,
+				2DC087061CFD21E300888646 /* CustomerDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D25806E1CF4388D0014FCDB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2D25806F1CF4388D0014FCDB /* HomePageViewController.h */,
+				2D2580701CF4388D0014FCDB /* HomePageViewController.m */,
+				2D2580711CF4388D0014FCDB /* Model */,
+				2D2580721CF4388D0014FCDB /* View */,
+				2D2580731CF4388D0014FCDB /* ViewController */,
+				2DE4FB231D49D84A00759D0A /* TestViewController.h */,
+				2DE4FB241D49D84A00759D0A /* TestViewController.m */,
+				2DE4FB251D49D84A00759D0A /* TestViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D2580711CF4388D0014FCDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D2580721CF4388D0014FCDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580951CF45DDB0014FCDB /* HomePageHeaderView.h */,
+				2D2580961CF45DDB0014FCDB /* HomePageHeaderView.m */,
+				2DE758B51CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.h */,
+				2DE758B61CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.m */,
+				2DE758B81CF5487500DEFA45 /* OverdueRecordTableViewCell.h */,
+				2DE758B91CF5487500DEFA45 /* OverdueRecordTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D2580731CF4388D0014FCDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D2580741CF4388D0014FCDB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580751CF4388D0014FCDB /* MineViewController.h */,
+				2D2580761CF4388D0014FCDB /* MineViewController.m */,
+				2D2580771CF4388D0014FCDB /* Model */,
+				2D2580781CF4388D0014FCDB /* View */,
+				2D2580791CF4388D0014FCDB /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2D2580771CF4388D0014FCDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D2580781CF4388D0014FCDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D662AE81CFEBDFA006E3D80 /* MineTableViewCell.h */,
+				2D662AE91CFEBDFA006E3D80 /* MineTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D2580791CF4388D0014FCDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D25807A1CF4388D0014FCDB /* ReportForms */ = {
+			isa = PBXGroup;
+			children = (
+				2D25807C1CF4388D0014FCDB /* ReportFormsViewController.h */,
+				2D25807D1CF4388D0014FCDB /* ReportFormsViewController.m */,
+				2D25807B1CF4388D0014FCDB /* Model */,
+				2D25807E1CF4388D0014FCDB /* View */,
+				2D25807F1CF4388D0014FCDB /* ViewController */,
+			);
+			path = ReportForms;
+			sourceTree = "<group>";
+		};
+		2D25807B1CF4388D0014FCDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D25807E1CF4388D0014FCDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF83A761CFE7F4A004571A2 /* ReportFormTableViewCell.h */,
+				2DF83A771CFE7F4A004571A2 /* ReportFormTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D25807F1CF4388D0014FCDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D47AC331CFFD04D008A6B0C /* ReportFormsDetailViewController.h */,
+				2D47AC341CFFD04D008A6B0C /* ReportFormsDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D2580871CF438CC0014FCDB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2D2580881CF438CC0014FCDB /* AppDelegate.h */,
+				2D2580891CF438CC0014FCDB /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2D25808F1CF446590014FCDB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2D18CD9A1CF58FFE00DFEC3D /* UIImage+TintColor.h */,
+				2D18CD9B1CF58FFE00DFEC3D /* UIImage+TintColor.m */,
+				2D5F5D691CF5555C00A420A4 /* UILabel+FontColor.h */,
+				2D5F5D6A1CF5555C00A420A4 /* UILabel+FontColor.m */,
+				2D2580901CF446800014FCDB /* UIFont+Size.h */,
+				2D2580911CF446800014FCDB /* UIFont+Size.m */,
+				2D2C7FF81CFC39DE00EEB8E4 /* UILabel+LineSpacing.h */,
+				2D2C7FF91CFC39DE00EEB8E4 /* UILabel+LineSpacing.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2D662AEB1CFED122006E3D80 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2D662AEC1CFED167006E3D80 /* KeychainWrapper.h */,
+				2D662AED1CFED167006E3D80 /* KeychainWrapper.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		798682DB8E29599D4300C9A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84EB5A7C7F2029C6C6558587 /* Pods-Car4S.debug.xcconfig */,
+				A7A23721A6528F036203D4D3 /* Pods-Car4S.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FEFF5385B94C762781E79CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E4ED89573B3096410802DF /* libPods-Car4S.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D257FEA1CF427380014FCDB /* Car4S */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2580181CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4S" */;
+			buildPhases = (
+				02B8188EFBAE08AB17312116 /* 📦 Check Pods Manifest.lock */,
+				2D257FE71CF427380014FCDB /* Sources */,
+				2D257FE81CF427380014FCDB /* Frameworks */,
+				2D257FE91CF427380014FCDB /* Resources */,
+				495CAAFB93B5DAB0F4A3A2E5 /* 📦 Embed Pods Frameworks */,
+				0FD6A622C4DE5576F02CBD5A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Car4S;
+			productName = Car4S;
+			productReference = 2D257FEB1CF427380014FCDB /* Car4S.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2580031CF427390014FCDB /* Car4STests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D25801B1CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4STests" */;
+			buildPhases = (
+				2D2580001CF427390014FCDB /* Sources */,
+				2D2580011CF427390014FCDB /* Frameworks */,
+				2D2580021CF427390014FCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2580061CF427390014FCDB /* PBXTargetDependency */,
+			);
+			name = Car4STests;
+			productName = Car4STests;
+			productReference = 2D2580041CF427390014FCDB /* Car4STests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D25800E1CF427390014FCDB /* Car4SUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D25801E1CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4SUITests" */;
+			buildPhases = (
+				2D25800B1CF427390014FCDB /* Sources */,
+				2D25800C1CF427390014FCDB /* Frameworks */,
+				2D25800D1CF427390014FCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2580111CF427390014FCDB /* PBXTargetDependency */,
+			);
+			name = Car4SUITests;
+			productName = Car4SUITests;
+			productReference = 2D25800F1CF427390014FCDB /* Car4SUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D257FE31CF427380014FCDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyondsoft;
+				TargetAttributes = {
+					2D257FEA1CF427380014FCDB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2D2580031CF427390014FCDB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D257FEA1CF427380014FCDB;
+					};
+					2D25800E1CF427390014FCDB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D257FEA1CF427380014FCDB;
+					};
+				};
+			};
+			buildConfigurationList = 2D257FE61CF427380014FCDB /* Build configuration list for PBXProject "Car4S" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D257FE21CF427380014FCDB;
+			productRefGroup = 2D257FEC1CF427380014FCDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D257FEA1CF427380014FCDB /* Car4S */,
+				2D2580031CF427390014FCDB /* Car4STests */,
+				2D25800E1CF427390014FCDB /* Car4SUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D257FE91CF427380014FCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D257FFE1CF427380014FCDB /* LaunchScreen.storyboard in Resources */,
+				2DE4FB271D49D84A00759D0A /* TestViewController.xib in Resources */,
+				2D257FFB1CF427380014FCDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2580021CF427390014FCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25800D1CF427390014FCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B8188EFBAE08AB17312116 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0FD6A622C4DE5576F02CBD5A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Car4S/Pods-Car4S-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495CAAFB93B5DAB0F4A3A2E5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Car4S/Pods-Car4S-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D257FE71CF427380014FCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2580971CF45DDB0014FCDB /* HomePageHeaderView.m in Sources */,
+				2DB8788E1CFC1DB900B6049D /* BottomToolBarView.m in Sources */,
+				2D662AEA1CFEBDFA006E3D80 /* MineTableViewCell.m in Sources */,
+				2D18CD9C1CF58FFE00DFEC3D /* UIImage+TintColor.m in Sources */,
+				2D2580801CF4388D0014FCDB /* CustomerViewController.m in Sources */,
+				2DC0870A1CFD285900888646 /* CustomerDetailCell.m in Sources */,
+				2DE4FB261D49D84A00759D0A /* TestViewController.m in Sources */,
+				2D2580861CF438B70014FCDB /* BaseViewController.m in Sources */,
+				2D2C7FF71CFC327B00EEB8E4 /* CustomerTableViewCell.m in Sources */,
+				2D2C7FFA1CFC39DE00EEB8E4 /* UILabel+LineSpacing.m in Sources */,
+				2D257FF01CF427380014FCDB /* main.m in Sources */,
+				2DE758BA1CF5487500DEFA45 /* OverdueRecordTableViewCell.m in Sources */,
+				2D47AC351CFFD04D008A6B0C /* ReportFormsDetailViewController.m in Sources */,
+				2DE758B71CF5482F00DEFA45 /* CurrentStatisticsTableViewCell.m in Sources */,
+				2D2580921CF446800014FCDB /* UIFont+Size.m in Sources */,
+				2DF83A781CFE7F4A004571A2 /* ReportFormTableViewCell.m in Sources */,
+				2D2580811CF4388D0014FCDB /* HomePageViewController.m in Sources */,
+				2D2580821CF4388D0014FCDB /* MineViewController.m in Sources */,
+				2D5F5D6B1CF5555C00A420A4 /* UILabel+FontColor.m in Sources */,
+				2D2580831CF4388D0014FCDB /* ReportFormsViewController.m in Sources */,
+				2D662AEE1CFED167006E3D80 /* KeychainWrapper.m in Sources */,
+				2D2E65E11D0F9B76003EB62C /* VerticalAlignLabel.m in Sources */,
+				2D25808A1CF438CC0014FCDB /* AppDelegate.m in Sources */,
+				2DC087071CFD21E300888646 /* CustomerDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2580001CF427390014FCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2580091CF427390014FCDB /* Car4STests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25800B1CF427390014FCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2580141CF427390014FCDB /* Car4SUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2580061CF427390014FCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D257FEA1CF427380014FCDB /* Car4S */;
+			targetProxy = 2D2580051CF427390014FCDB /* PBXContainerItemProxy */;
+		};
+		2D2580111CF427390014FCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D257FEA1CF427380014FCDB /* Car4S */;
+			targetProxy = 2D2580101CF427390014FCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D257FFC1CF427380014FCDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D257FFD1CF427380014FCDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2580161CF427390014FCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D2580171CF427390014FCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2580191CF427390014FCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EB5A7C7F2029C6C6558587 /* Pods-Car4S.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Car4S/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4S;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D25801A1CF427390014FCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A23721A6528F036203D4D3 /* Pods-Car4S.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Car4S/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4S;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D25801C1CF427390014FCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Car4STests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4STests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car4S.app/Car4S";
+			};
+			name = Debug;
+		};
+		2D25801D1CF427390014FCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Car4STests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4STests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car4S.app/Car4S";
+			};
+			name = Release;
+		};
+		2D25801F1CF427390014FCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Car4SUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4SUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Car4S;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D2580201CF427390014FCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Car4SUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondsoft.Car4SUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Car4S;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D257FE61CF427380014FCDB /* Build configuration list for PBXProject "Car4S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2580161CF427390014FCDB /* Debug */,
+				2D2580171CF427390014FCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2580181CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2580191CF427390014FCDB /* Debug */,
+				2D25801A1CF427390014FCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D25801B1CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4STests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25801C1CF427390014FCDB /* Debug */,
+				2D25801D1CF427390014FCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D25801E1CF427390014FCDB /* Build configuration list for PBXNativeTarget "Car4SUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25801F1CF427390014FCDB /* Debug */,
+				2D2580201CF427390014FCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D257FE31CF427380014FCDB /* Project object */;
+}
